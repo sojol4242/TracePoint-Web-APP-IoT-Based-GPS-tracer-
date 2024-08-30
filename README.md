@@ -1,79 +1,37 @@
-// This is a markdown file that provides information about a project called "Picturesque". It includes
-// instructions on how to clone the repository, technologies used for both frontend and backend, the
-// motive behind the project, a live site link, and project screenshots.
 
-## Available Scripts
+## N.B: It's a team project.
 
-In the project directory, you can run:
-
-## `clone the repo on your system`
-```bash
-git clone
-cd PICTURESQUE
-npm install
-npm start
+## TracePoint
+ # Device Technology:
 ```
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-## PICTURESQUE
-
-<h4>Project name :  <small>Picturesque</small></h4>
-
-
  
+ 1. NodeMCU WiFi Module
+ 2. Gps module Neo 6-M
+ 3. Connecting Wire
+``` 
  # Technology Used : (Frontend) 
- 
-```
- 
+
+``` 
  1. React.js 
  2. Bootstrap 
- 3. Font awesome
+ 3. Font Awesome
  4. A little bit of framer motion
  5. CSS
- 
 ``` 
 # Technology Used : (Backend) 
- 
 ```
  
  1. Mongodb for database 
  2. Node.js 
- 3. Express.js 
- 
+ 3. Express.js
+ 4. firebase for real-time data transfer
 ```
- 
-# Motive : 
+The IoT-based live location tracker for university buses is described as follows:
+#### Trace the live location.
+#### Store driver information. 
+#### Admin and User Authentication.
+# Device
+![device](https://i.ibb.co/ZG5twdf/23717303-2f5e-4c41-90c6-f776a7c2752c.jpg)
 
- 
-```
- 
- 1. Practice MERN Fundamental 
 
- 2. Deploy in Firebase & Heroku 
-
- 3. React props,components,hooks,Context API 
-
- 4. Firebase Authentication 
- 
-```
- 
-### `live site` 
-<strong>project live site - </strong> <a href="https://picturesque-cad49.web.app/">Live</a> <br/>
-<strong>Server - </strong> <a href="https://photograpy-backend.onrender.com/getNewServices">server</a>
-
-<h3>project-screenshot</h3>
-<!-- 
-https://i.ibb.co/vqVSJL1/Screenshot-178.png
- -->
- # Responsive Views
- 
-![Landing page screenshot](https://i.ibb.co/6Xp7dsD/Fire-Shot-Capture-017-Multi-Device-Website-Mockup-Generator-techsini-com.png)
- 
-# And many more.... 
- 
-# Picturesque23
-# TracePoint-Web-APP-IoT-Based-GPS-tracer-
+The TracePoint App provides a robust solution for real-time tracking of university buses using the MERN stack and hardware device. This system enhances the safety and convenience of bus transportation by providing accurate, up-to-date location information. Future enhancements could include user authentication, real-time updates, and more sophisticated error handling further to improve the system's reliability and user experience.
